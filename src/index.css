@@ -96,17 +96,17 @@
   }
 }
 
-/* Custom gradient utilities for purple text effects */
+/* Custom gradient utilities for galaxy-like purple text effects */
 @layer utilities {
   .text-gradient-purple {
-    background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%);
+    background: linear-gradient(135deg, #4c1d95 0%, #7c3aed 25%, #a855f7 50%, #c084fc 75%, #e879f9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .text-gradient-purple-cool {
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+    background: linear-gradient(135deg, #1e1b4b 0%, #3730a3 20%, #6366f1 40%, #8b5cf6 60%, #d946ef 80%, #f0abfc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
