@@ -7,43 +7,43 @@
 
 @layer base {
   :root {
-    --background: 220 13% 9%;
+    --background: 15 15% 8%;
     --foreground: 280 20% 95%;
 
-    --card: 220 13% 12%;
+    --card: 15 15% 12%;
     --card-foreground: 280 20% 95%;
 
-    --popover: 220 13% 12%;
+    --popover: 15 15% 12%;
     --popover-foreground: 280 20% 95%;
 
     --primary: 280 100% 70%;
-    --primary-foreground: 220 13% 9%;
+    --primary-foreground: 15 15% 8%;
 
-    --secondary: 220 13% 15%;
+    --secondary: 15 15% 15%;
     --secondary-foreground: 280 20% 95%;
 
-    --muted: 220 13% 15%;
+    --muted: 15 15% 15%;
     --muted-foreground: 280 20% 65%;
 
-    --accent: 220 13% 15%;
+    --accent: 15 15% 15%;
     --accent-foreground: 280 20% 95%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 280 20% 95%;
 
-    --border: 220 13% 18%;
-    --input: 220 13% 18%;
+    --border: 15 15% 18%;
+    --input: 15 15% 18%;
     --ring: 280 100% 70%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 220 13% 12%;
+    --sidebar-background: 15 15% 12%;
     --sidebar-foreground: 280 20% 95%;
     --sidebar-primary: 280 100% 70%;
-    --sidebar-primary-foreground: 220 13% 9%;
-    --sidebar-accent: 220 13% 15%;
+    --sidebar-primary-foreground: 15 15% 8%;
+    --sidebar-accent: 15 15% 15%;
     --sidebar-accent-foreground: 280 20% 95%;
-    --sidebar-border: 220 13% 18%;
+    --sidebar-border: 15 15% 18%;
     --sidebar-ring: 280 100% 70%;
   }
 
@@ -99,14 +99,14 @@
 /* Custom gradient utilities for galaxy-like purple text effects */
 @layer utilities {
   .text-gradient-purple {
-    background: linear-gradient(135deg, #4c1d95 0%, #7c3aed 25%, #a855f7 50%, #c084fc 75%, #e879f9 100%);
+    background: linear-gradient(135deg, #301548 0%, #642e83 35%, #724fbe 65%, #8161e0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .text-gradient-purple-cool {
-    background: linear-gradient(135deg, #1e1b4b 0%, #3730a3 20%, #6366f1 40%, #8b5cf6 60%, #d946ef 80%, #f0abfc 100%);
+    background: linear-gradient(135deg, #301548 0%, #642e83 30%, #724fbe 60%, #8161e0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
