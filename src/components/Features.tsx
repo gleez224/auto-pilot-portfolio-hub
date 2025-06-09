@@ -29,7 +29,7 @@ const Features = () => {
     <section className="py-24 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-gradient-purple">
             Why Choose AutomateFlow?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
@@ -42,7 +42,7 @@ const Features = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
                 <feature.icon className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">{feature.title}</h3>
+              <h3 className="text-xl font-semibold text-gradient-purple-cool mb-4">{feature.title}</h3>
               <p className="text-muted-foreground">{feature.description}</p>
             </div>
           ))}

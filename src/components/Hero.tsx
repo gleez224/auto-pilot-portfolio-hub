@@ -3,13 +3,13 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-primary/5 py-24 sm:py-32">
+    <section className="relative overflow-hidden bg-background py-24 sm:py-32">
       <div className="absolute inset-0 bg-grid-black/[0.02] bg-[size:60px_60px]" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-            Automate Your Business
-            <span className="block text-primary">With AI Precision</span>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
+            <span className="text-gradient-purple-cool">Automate Your Business</span>
+            <span className="block text-gradient-purple">With AI Precision</span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-3xl mx-auto">
             Transform your workflow with cutting-edge automation solutions. Our AI agents work 24/7 
